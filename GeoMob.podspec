@@ -6,11 +6,11 @@ s.version          = '0.1.0'
 s.summary          = 'GeoMob ios framework'
 
 
-s.homepage        = ""
+s.homepage        = "http://www.geomob.com"
 s.license         = { :type => 'CUSTOM', :file => 'LICENSE' }
 s.author          = { 'Paolo Donato' => 'paolo.donato@geouniq.com' }
-s.platform     = :ios
-s.ios.deployment_target = '8.0'
+s.platform     = :ios, '10.0'
+s.ios.deployment_target = '10.0'
 
 
 # the Pre-Compiled Framework:
