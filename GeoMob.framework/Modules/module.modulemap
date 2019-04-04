@@ -1,0 +1,11 @@
+framework module GeoMob {
+  umbrella header "GeoMob.h"
+
+  export *
+  module * { export * }
+}
+
+module GeoMob.Swift {
+    header "GeoMob-Swift.h"
+    requires objc
+}
